@@ -1,6 +1,6 @@
 package com.company;
 
-public class MathEx {
+public class MathExercises {
     public static int digitSwapper(int input) {
         int numOne = input % 10;
         int numTen = input/10 % 10;
@@ -46,4 +46,3 @@ public class MathEx {
 //        System.out.println(dayOfWeek(2,1));
 //
   }
-}
