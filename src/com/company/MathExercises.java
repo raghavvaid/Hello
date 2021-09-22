@@ -8,7 +8,6 @@ public class MathExercises {
         return z + numOne * 10 + numTen;
     }
 
-
     public static void timeLeft(int currHour, int currMin, int depHour, int depMin) {
         int hourToMin = currHour * 60;
         int curMinTotal = hourToMin + currMin;
@@ -17,7 +16,7 @@ public class MathExercises {
         int waitTime = depMinTotal - curMinTotal;
         int A = waitTime / 60;
         int B = waitTime % 60;
-        System.out.println("The train is arriving in " + A + "hours and " + B + " minutes.");
+        System.out.println("The train is arriving in " + A + " hours and " + B + " minutes.");
     }
 
     public static int dayOfWeek(int daysOfWeek1, int day) {
@@ -40,8 +39,11 @@ public class MathExercises {
         input = 381;
         output = digitSwapper(input);
         System.out.println(input + " " + output);
+        System.out.println();
         timeLeft(1, 34, 8, 20);
         timeLeft(1, 15, 4, 36);
+
+        System.out.println();
 
         System.out.println(dayOfWeek(0, 1));
         System.out.println(dayOfWeek(0, 14));
